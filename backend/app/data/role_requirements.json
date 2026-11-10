@@ -1,0 +1,218 @@
+{
+  "software_engineer": {
+    "title": "Software Engineer",
+    "core_skills": {
+      "python": {"level": "intermediate", "weight": 0.9, "priority": "critical"},
+      "javascript": {"level": "intermediate", "weight": 0.9, "priority": "critical"},
+      "git": {"level": "intermediate", "weight": 0.85, "priority": "critical"},
+      "sql": {"level": "intermediate", "weight": 0.8, "priority": "high"},
+      "data structures": {"level": "intermediate", "weight": 0.85, "priority": "critical"},
+      "algorithms": {"level": "intermediate", "weight": 0.8, "priority": "high"}
+    },
+    "preferred_skills": {
+      "typescript": {"level": "basic", "weight": 0.7, "priority": "medium"},
+      "react": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "node.js": {"level": "basic", "weight": 0.7, "priority": "medium"},
+      "docker": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "aws": {"level": "basic", "weight": 0.7, "priority": "medium"},
+      "testing": {"level": "basic", "weight": 0.6, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "kubernetes": {"level": "basic", "weight": 0.4, "priority": "low"},
+      "ci/cd": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "microservices": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "graphql": {"level": "basic", "weight": 0.35, "priority": "low"}
+    },
+    "salary_range": "$70k-$150k",
+    "job_growth": "22%"
+  },
+  "data_scientist": {
+    "title": "Data Scientist",
+    "core_skills": {
+      "python": {"level": "advanced", "weight": 0.95, "priority": "critical"},
+      "sql": {"level": "intermediate", "weight": 0.9, "priority": "critical"},
+      "machine learning": {"level": "advanced", "weight": 0.95, "priority": "critical"},
+      "statistics": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "pandas": {"level": "intermediate", "weight": 0.85, "priority": "critical"},
+      "numpy": {"level": "intermediate", "weight": 0.8, "priority": "high"}
+    },
+    "preferred_skills": {
+      "tensorflow": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "pytorch": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "scikit-learn": {"level": "intermediate", "weight": 0.8, "priority": "high"},
+      "deep learning": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "data visualization": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "jupyter": {"level": "basic", "weight": 0.6, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "spark": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "hadoop": {"level": "basic", "weight": 0.4, "priority": "low"},
+      "tableau": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "aws": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "mlops": {"level": "basic", "weight": 0.45, "priority": "low"}
+    },
+    "salary_range": "$80k-$160k",
+    "job_growth": "35%"
+  },
+  "frontend_developer": {
+    "title": "Frontend Developer",
+    "core_skills": {
+      "javascript": {"level": "advanced", "weight": 0.95, "priority": "critical"},
+      "html": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "css": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "react": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "typescript": {"level": "intermediate", "weight": 0.85, "priority": "critical"},
+      "responsive design": {"level": "intermediate", "weight": 0.8, "priority": "high"}
+    },
+    "preferred_skills": {
+      "next.js": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "tailwind css": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "git": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "webpack": {"level": "basic", "weight": 0.6, "priority": "medium"},
+      "testing": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "rest api": {"level": "basic", "weight": 0.7, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "vue.js": {"level": "basic", "weight": 0.4, "priority": "low"},
+      "angular": {"level": "basic", "weight": 0.4, "priority": "low"},
+      "graphql": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "sass": {"level": "basic", "weight": 0.35, "priority": "low"},
+      "web performance": {"level": "basic", "weight": 0.5, "priority": "low"}
+    },
+    "salary_range": "$60k-$130k",
+    "job_growth": "18%"
+  },
+  "backend_developer": {
+    "title": "Backend Developer",
+    "core_skills": {
+      "python": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "node.js": {"level": "intermediate", "weight": 0.85, "priority": "critical"},
+      "sql": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "rest api": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "database design": {"level": "intermediate", "weight": 0.85, "priority": "high"},
+      "git": {"level": "intermediate", "weight": 0.8, "priority": "high"}
+    },
+    "preferred_skills": {
+      "docker": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "microservices": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "mongodb": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "redis": {"level": "basic", "weight": 0.6, "priority": "medium"},
+      "aws": {"level": "basic", "weight": 0.7, "priority": "medium"},
+      "testing": {"level": "basic", "weight": 0.65, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "graphql": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "elasticsearch": {"level": "basic", "weight": 0.4, "priority": "low"},
+      "kafka": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "kubernetes": {"level": "basic", "weight": 0.5, "priority": "low"}
+    },
+    "salary_range": "$75k-$145k",
+    "job_growth": "20%"
+  },
+  "devops_engineer": {
+    "title": "DevOps Engineer",
+    "core_skills": {
+      "docker": {"level": "advanced", "weight": 0.95, "priority": "critical"},
+      "kubernetes": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "aws": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "linux": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "ci/cd": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "bash": {"level": "intermediate", "weight": 0.8, "priority": "high"}
+    },
+    "preferred_skills": {
+      "terraform": {"level": "intermediate", "weight": 0.8, "priority": "high"},
+      "ansible": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "jenkins": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "python": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "monitoring": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "git": {"level": "intermediate", "weight": 0.7, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "prometheus": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "grafana": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "helm": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "vault": {"level": "basic", "weight": 0.4, "priority": "low"},
+      "security": {"level": "basic", "weight": 0.55, "priority": "low"}
+    },
+    "salary_range": "$80k-$170k",
+    "job_growth": "28%"
+  },
+  "fullstack_developer": {
+    "title": "Full Stack Developer",
+    "core_skills": {
+      "javascript": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "react": {"level": "advanced", "weight": 0.85, "priority": "critical"},
+      "node.js": {"level": "advanced", "weight": 0.85, "priority": "critical"},
+      "sql": {"level": "intermediate", "weight": 0.8, "priority": "high"},
+      "html": {"level": "advanced", "weight": 0.8, "priority": "high"},
+      "css": {"level": "advanced", "weight": 0.8, "priority": "high"}
+    },
+    "preferred_skills": {
+      "typescript": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "mongodb": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "git": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "rest api": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "docker": {"level": "basic", "weight": 0.6, "priority": "medium"},
+      "testing": {"level": "basic", "weight": 0.65, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "aws": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "graphql": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "next.js": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "redis": {"level": "basic", "weight": 0.4, "priority": "low"}
+    },
+    "salary_range": "$75k-$155k",
+    "job_growth": "25%"
+  },
+  "mobile_developer": {
+    "title": "Mobile Developer",
+    "core_skills": {
+      "react native": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "javascript": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "mobile ui/ux": {"level": "intermediate", "weight": 0.85, "priority": "critical"},
+      "rest api": {"level": "intermediate", "weight": 0.8, "priority": "high"},
+      "git": {"level": "intermediate", "weight": 0.75, "priority": "high"}
+    },
+    "preferred_skills": {
+      "typescript": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "ios": {"level": "basic", "weight": 0.7, "priority": "medium"},
+      "android": {"level": "basic", "weight": 0.7, "priority": "medium"},
+      "firebase": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "testing": {"level": "basic", "weight": 0.6, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "flutter": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "swift": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "kotlin": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "app store optimization": {"level": "basic", "weight": 0.35, "priority": "low"}
+    },
+    "salary_range": "$70k-$145k",
+    "job_growth": "20%"
+  },
+  "machine_learning_engineer": {
+    "title": "Machine Learning Engineer",
+    "core_skills": {
+      "python": {"level": "advanced", "weight": 0.95, "priority": "critical"},
+      "machine learning": {"level": "advanced", "weight": 0.95, "priority": "critical"},
+      "tensorflow": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "pytorch": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "deep learning": {"level": "advanced", "weight": 0.9, "priority": "critical"},
+      "mlops": {"level": "intermediate", "weight": 0.85, "priority": "high"}
+    },
+    "preferred_skills": {
+      "aws": {"level": "intermediate", "weight": 0.75, "priority": "high"},
+      "docker": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "kubernetes": {"level": "basic", "weight": 0.65, "priority": "medium"},
+      "sql": {"level": "intermediate", "weight": 0.7, "priority": "medium"},
+      "git": {"level": "intermediate", "weight": 0.65, "priority": "medium"}
+    },
+    "nice_to_have": {
+      "spark": {"level": "basic", "weight": 0.5, "priority": "low"},
+      "airflow": {"level": "basic", "weight": 0.45, "priority": "low"},
+      "model deployment": {"level": "basic", "weight": 0.55, "priority": "low"},
+      "computer vision": {"level": "basic", "weight": 0.5, "priority": "low"}
+    },
+    "salary_range": "$90k-$180k",
+    "job_growth": "40%"
+  }
+}
